@@ -1,13 +1,16 @@
-import MostraNome, { multiplicar } from './modulos/matematica'
+import { useState } from 'react'
 
 function App() {
+  const [nome, setNome] = useState()               
+  
+  function handleClick(){
+    setNome("Daniel Alencar")
+  }
 
-  const resultado = multiplicar(2,4)
-  const nome = MostraNome("DANIEL")
   return (
     <div>
-      <p>{resultado}</p>
       <p>{nome}</p>
+      <div onClick={handleClick} >Mudar nome</div>
     </div>
   );
 }
