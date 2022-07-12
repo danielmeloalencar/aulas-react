@@ -1,10 +1,10 @@
-# Getting Started with Create React App
+# Aulas ReactJS do Zero
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Available Scripts
+## Scripts disponíveis
 
-In the project directory, you can run:
+No projeto, você pode executar:
 
 ### `npm start`
 
