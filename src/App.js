@@ -7,6 +7,8 @@ function App() {
     setNome("Daniel Alencar")
   }
 
+  const resultado = multiplicar(2,4)
+
   return (
     <div>
       <p>{nome}</p>
